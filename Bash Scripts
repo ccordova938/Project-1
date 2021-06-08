@@ -1,0 +1,104 @@
+for_loop
+#!/bin/bash
+# for <item> in <list>:
+# do
+#    <run_this_command>
+#    <run_this_command>
+# done
+
+#list the variable
+state=('Nebraska' 'Hawaii' 'California' 'Arizona' 'Nevada')
+files=('/etc/shadow' '/etc/passwd' )
+output=$HOME/research/sys_info.txt
+#Print out state
+for state in ${state[@]};
+do
+   if [ $state == 'Hawaii' ]
+   then
+     echo 'Hawaii is the best!'
+   else
+
+my_script
+#!/bin/bash
+mv script my_script.sh
+
+#!/bin/bash
+# for <item> in <list>:
+# do
+#  <command 1>
+#  <command 2?
+# done
+
+# list the variables
+months=(
+  'Jan'
+  'Feb'
+  'Mar'
+  'Apr'
+  'May'
+  'Jun'
+  'Jul'
+  'Aug'
+  'Sep'
+  'Oct'
+  'Oct'
+  'Nov'
+  'Dec'
+)
+days=( 'Mon' 'Tues' 'Wed' 'Thurs' 'Fri' 'Sat' 'Sun')
+
+#Print out the monts
+for month in ${months[@]};
+do
+  echo $month
+done
+
+#Prints the days of the week
+for day in ${dayhs[@]};
+do
+   if [ $day = 'Sun'] || [$day = 'Sat']
+   then
+     echo "It is a $day. Have a good day."
+   else
+     echo "It is $day. Its not the weekend yet you slob."
+   fi
+done
+
+# Run a command on each file
+for file in $(ls);
+do
+   ls -lah $file
+done
+
+# Run an operation on a number
+for num in {0..10}
+
+# Run a command on each file
+for file in $(ls);
+do
+   ls -lah $file
+done
+
+# Run an operation on a number
+for num in {0..10}
+do
+   if [ $num = 1 ] || [ $num = 4 ]
+   then
+    echo $num
+   fi
+done
+
+system info script
+!/bin/bash
+
+# Free memory
+free -h > ~/backups/freemem/free_mem.txt
+
+# Disk space usage
+du -h > ~/backups/diskuse/disk_usage.txt
+
+# List open files
+lsof > ~/backups/openlist/open_list.txt
+
+# Free disk space
+df -h > ~/backups/freedisk/free_disk.txt
